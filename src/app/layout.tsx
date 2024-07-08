@@ -8,7 +8,7 @@ import MobileNav from "@/components/navigation/mobile-nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio Youtube",
+  title: "Assem Portfolio",
   description:
     "fullstack portfolio with NextJs, Sanity, Shadcn-ui and Typescript",
   icons: [
