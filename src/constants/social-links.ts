@@ -3,11 +3,11 @@ import { Facebook, Github, Linkedin } from "lucide-react";
 
 export const socialLinks: SocialLink[] = [
   {
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/3asem.mohammad.524",
     icon: Facebook,
   },
   {
-    href: "https://github.com",
+    href: "https://github.com/3ASEM8",
     icon: Github,
   },
   {

@@ -13,7 +13,7 @@ const SkillsSection = async () => {
 
   return (
     <section id="skills" className="relative space-y-6">
-      <Effect className="-right-20 bottom-8 md:-right-36 md:bottom-2" />
+      <Effect className="right-20 bottom-8 md:-right-36 md:bottom-2" />
       <SectionTitle title="skills" description="my technical proficiency" />
       <Tabs defaultValue={tabItems[0].value}>
         <div className="grid md:grid-cols-3 gap-4 md:gap-8">

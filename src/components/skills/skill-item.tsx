@@ -20,9 +20,9 @@ const SkillItem: FC<SkillItemProps> = ({ item }) => {
     <article className="grid gap-2">
       <div className="flex items-center justify-between gap-8 px-4">
         <h4 className="capitalize text-foreground">{item.label}</h4>
-        <h4 className="text-primary/80">{item.value}%</h4>
+        {/* <h4 className="text-primary/80">{item.value}%</h4> */}
       </div>
-      <Progress value={progress} className="h-1.5" />
+      <Progress value={100} className="h-1.5" />
     </article>
   );
 };

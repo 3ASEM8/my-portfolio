@@ -12,7 +12,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ imageUrl, title }) => {
       <figure className="absolute size-full top-0 left-0 bg-gradient-to-t from-background/70 to-transparent" />
       <Image
         src={imageUrl}
-        width={220}
+        width={200}
         height={220}
         alt={title}
         className="size-full rounded-sm group-hover:scale-105 transition"

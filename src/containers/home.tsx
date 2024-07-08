@@ -25,11 +25,12 @@ const HomeSection = () => {
       {/* Presentation */}
       <div className="md:col-span-6 flex flex-col items-center md:items-start gap-y-4">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground capitalize">
-          hi, i&apos;m mustapha
+          hi, i&apos;m assem
         </h2>
         <h5 className="text-xl md:text-2xl font-semibold capitalize">
           frontend developer
         </h5>
+
         <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eos
           neque id consectetur, iste quas perspiciatis, quasi suscipit corrupti
@@ -81,7 +82,7 @@ const HomeSection = () => {
             width={420}
             height={420}
             alt="profile"
-            src="/profile.jpg"
+            src="/aa.jpg"
             className="object-fill size-[80%] border-2 rounded-full ring-4 ring-primary ring-offset-4 ring-offset-background"
           />
         </div>
