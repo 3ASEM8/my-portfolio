@@ -1,7 +1,7 @@
 import SectionTitle from "@/components/section-title";
 import { buttonVariants } from "@/components/ui/button";
 import { Effect } from "@/components/ui/effects";
-import { Mail } from "lucide-react";
+import { Instagram, Mail, Wheat } from "lucide-react";
 import React from "react";
 
 const ContactSection = () => {
@@ -12,13 +12,15 @@ const ContactSection = () => {
     >
       <Effect variant="ball" size="default" className="-top-4 -end-4" />
       <SectionTitle title="get in touch" description="let's work together" />
-      <a
-        href="gddfggggdadg12@gmail.com"
-        className={buttonVariants({ size: "lg" })}
-      >
-        <Mail className="size-4" />
-        <span>si hello</span>
-      </a>
+      <div className="flex gap-4">
+        <a
+          href="mailto:gddfggggdadg12@gmail.com"
+          className={buttonVariants({ size: "lg" })}
+        >
+          <Mail className="size-4" />
+          <span>si hello</span>
+        </a>
+      </div>
     </section>
   );
 };

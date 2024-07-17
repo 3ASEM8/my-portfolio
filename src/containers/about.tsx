@@ -24,10 +24,12 @@ const AboutSection = async () => {
           className="items-start"
         />
         <p className="text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-          inventore vero minima consequuntur ipsam illo nemo nulla at voluptatum
-          iusto. Dolores commodi provident facere blanditiis suscipit tempore
-          praesentium nulla quaerat? Officia, officiis?
+          I&apos;m a Front-End Developer specializing in Next.js. I create
+          user-friendly interfaces and bring designs to life using React,
+          Next.js, JavaScript, CSS, and HTML. Check out my portfolio for a look
+          at my work. I’m passionate about delivering high-quality, innovative
+          solutions and staying updated with the latest technologies. Feel free
+          to reach out for collaborations or opportunities!
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-end">
           {statistics.map((item, index) => (

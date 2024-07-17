@@ -28,14 +28,12 @@ const HomeSection = () => {
           hi, i&apos;m assem
         </h2>
         <h5 className="text-xl md:text-2xl font-semibold capitalize">
-          frontend developer
+          Next JS developer
         </h5>
 
         <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eos
-          neque id consectetur, iste quas perspiciatis, quasi suscipit corrupti
-          voluptate sunt commodi minus fugit doloremque rerum earum voluptates
-          cupiditate voluptatibus?
+          frontend developer specializing in Next.js. I build engaging user
+          interfaces and craft seamless web experiences.
         </p>
         <div className="flex items-center gap-2 py-4">
           <a
@@ -45,7 +43,7 @@ const HomeSection = () => {
             <span>my works</span>
             <ArrowRightCircle className="size-4" />
           </a>
-          <a
+          {/* <a
             href="/cv.pdf"
             className={cn(
               buttonVariants({ variant: "outline", size: "lg" }),
@@ -56,7 +54,7 @@ const HomeSection = () => {
           >
             <span>download CV</span>
             <Download className="size-4" />
-          </a>
+          </a> */}
         </div>
       </div>
       {/* Image */}
@@ -82,7 +80,7 @@ const HomeSection = () => {
             width={420}
             height={420}
             alt="profile"
-            src="/aa.jpg"
+            src="/a.jpg"
             className="object-fill size-[80%] border-2 rounded-full ring-4 ring-primary ring-offset-4 ring-offset-background"
           />
         </div>
