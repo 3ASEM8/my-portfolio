@@ -22,6 +22,9 @@ const Carousel: FC<CarouselProps> = ({ images }) => {
         width={320}
         height={320}
         alt="current image"
+        layout="responsive" // يمكن استخدام 'fixed', 'intrinsic', 'responsive', 'fill'
+        quality={100} // تحسين الجودة إذا لزم الأمر
+        style={{ objectFit: "cover" }} // ضبط عرض الصورة
         className="w-full max-h-[30rem] shadow"
       />
       <div className="grid grid-cols-4 gap-2">
@@ -33,6 +36,9 @@ const Carousel: FC<CarouselProps> = ({ images }) => {
                 width={120}
                 height={120}
                 alt="image"
+                layout="responsive" // يمكن استخدام 'fixed', 'intrinsic', 'responsive', 'fill'
+                quality={100} // تحسين الجودة إذا لزم الأمر
+                style={{ objectFit: "cover" }} // ضبط عرض الصورة
                 className="opacity-60 hover:opacity-100 hover:scale-110 cursor-pointer transition"
                 onClick={() => {
                   setCurrentImage(urlForImage(image));

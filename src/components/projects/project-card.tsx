@@ -15,6 +15,9 @@ const ProjectCard: FC<ProjectCardProps> = ({ imageUrl, title }) => {
         width={200}
         height={220}
         alt={title}
+        layout="responsive" // يمكن استخدام 'fixed', 'intrinsic', 'responsive', 'fill'
+        quality={100} // تحسين الجودة إذا لزم الأمر
+        style={{ objectFit: "cover" }} // ضبط عرض الصورة
         className="size-full rounded-sm group-hover:scale-105 transition"
       />
       <h3 className="absolute bottom-2 start-2 text-foreground group-hover:text-primary capitalize truncate font-semibold">
