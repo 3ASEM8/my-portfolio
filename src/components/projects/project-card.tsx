@@ -15,7 +15,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ imageUrl, title }) => {
           src={imageUrl}
           alt={title}
           fill
-          className="size-full rounded-sm group-hover:scale-105 transition"
+          className="size-full rounded-sm group-hover:scale-105 transition object-cover"
         />
       </div>
       <h3 className="absolute bottom-2 start-2 text-foreground group-hover:text-primary capitalize truncate font-semibold">
