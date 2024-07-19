@@ -9,7 +9,7 @@ import React from "react";
 const SkillsSection = async () => {
   const frontendSkills = await getSkills("frontend");
   const backendSkills = await getSkills("backend");
-  const tools = await getSkills("tools");
+  // const tools = await getSkills("tools");
 
   return (
     <section id="skills" className="relative space-y-6">
@@ -37,9 +37,9 @@ const SkillsSection = async () => {
             <TabsContent value="backend">
               <SkillsContainer data={backendSkills} label="back end" />
             </TabsContent>
-            <TabsContent value="tools">
+            {/* <TabsContent value="tools">
               <SkillsContainer data={tools} label="tools" />
-            </TabsContent>
+            </TabsContent> */}
           </div>
         </div>
       </Tabs>

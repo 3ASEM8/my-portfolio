@@ -12,9 +12,9 @@ export const tabItems: TabItem[] = [
     icon: TerminalSquare,
     label: "back end",
   },
-  {
-    value: "tools",
-    icon: PencilRuler,
-    label: "tools",
-  },
+  // {
+  //   value: "tools",
+  //   icon: PencilRuler,
+  //   label: "tools",
+  // },
 ];
